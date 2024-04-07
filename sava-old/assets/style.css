@@ -1,0 +1,1577 @@
+/* Reset CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    line-height: 1.6;
+    background-color: #FCFCFC !important;
+    color: rgba(70, 70, 70, 1);
+}
+
+a {
+    color: rgba(63, 74, 207, 1);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(23, 32, 135);
+
+}
+
+.sitewidth {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Add your custom styles below */
+
+.Headersit{
+    display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 100px;
+  align-items: center;
+  position: relative;
+}
+.said-full-main::after{
+    position: absolute;
+    content: url(../imgs/Line\ 1.svg);
+    top: -18px;
+    left: 0;
+}
+.Headersit .LogoHeader{
+    width: 19%;
+}
+.Headersit .LogoHeader a{
+    display: flex;
+}
+.Headersit .MenueHead{
+    width: 50%;
+}
+.Headersit .BtnHead{
+    width: 30%;
+    display: flex;
+    justify-content: end;
+    align-self: center;
+}
+.Headersit .BtnHead a{
+    margin: 0px 8px 0px 0px;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+
+}
+.Headersit .BtnHead a:hover{
+    transform: translate(0px , -4px);
+    -webkit-transform: translate(0px , -4px);
+    -moz-transform: translate(0px , -4px);
+    -ms-transform: translate(0px , -4px);
+    -o-transform: translate(0px , -4px);
+}
+.Circlebutton{
+    width: 40px;
+  height: 40px;
+  position: relative;
+  border-radius: 50%;
+}
+.Circlebutton img{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+.Circlebutton.one{
+    background: linear-gradient(270deg, #C3C3C3 0%, #FFFFFF 100%);
+}
+.Circlebutton.two{
+    background: linear-gradient(270deg, #3F4ACF 0%, #131C88 100%);
+ 
+}
+.CTAbutton:hover{
+    color: #fff;
+}
+.CTAbutton{
+    height: 40px;
+    box-shadow: 0px 4px 37.70000076293945px 0px rgba(70, 70, 70, 0.13);
+    background: linear-gradient(270deg, #464646 0%, #1E1E1E 100%);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px 16px 14px 11px;
+    border-radius: 35px;
+  }
+
+.CTAbutton span{
+    font-weight: 800;
+}
+.CTAbutton img{
+    vertical-align: middle;
+    margin-right: inherit;
+}
+
+.MenueHead nav ul{
+list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.MenueHead nav ul li{
+    padding: 0px 24px 0px 0px;
+
+
+}
+.MenueHead nav ul li a{
+    color: rgba(117, 117, 117, 1);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: -0.03em;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+
+}
+.MenueHead nav ul .Sub > a{
+    position: relative;
+}
+.MenueHead nav ul .Sub{
+    position: relative;
+}
+.MenueHead nav ul .Sub > a::after{
+    position: absolute;
+    content: url(../imgs/arrow-down.svg);
+    left: -13px;
+  bottom: 0;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+.MenueHead nav ul .Sub:hover > a::after{
+    transform: rotate(180deg);   
+}
+
+.MenueHead nav ul .Sub > ul{
+    display: block;
+    position: absolute;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    box-shadow: 0px 9px 68px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    right: 12px;
+    transform: translate(0px , 14px);
+    -webkit-transform: translate(0px , 14px);
+    -moz-transform: translate(0px , 14px);
+    -ms-transform: translate(0px , 14px);
+    -o-transform: translate(0px , 14px);
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+    z-index: 1;
+     background: #fff;
+
+}
+.MenueHead nav ul .Sub > ul li{
+    padding: 3px 11px;
+    border-bottom: 1px solid #f3f3f3;
+  }
+
+.MenueHead nav ul .Sub:hover > ul{
+    visibility: visible;
+    opacity: 1;
+    transform: translate(0px , 4px);
+    -webkit-transform: translate(0px , 4px);
+    -moz-transform: translate(0px , 4px);
+    -ms-transform: translate(0px , 4px);
+    -o-transform: translate(0px , 4px);
+}
+.MenueHead nav ul li:hover > a{
+    color: rgba(63, 74, 207, 1);
+}
+.MenueHead nav ul li:hover a svg path{
+    fill: rgba(63, 74, 207, 1);
+}
+.MenueHead nav ul li a svg path{
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;}
+.MenueHead nav ul li a svg{
+
+    vertical-align: middle;
+}
+
+/* Body */
+.said-full-main{
+    position: relative;
+    height: 450px;
+    background-image: url(../imgs/122.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 101%;
+    background-position-y: 13%;
+    background-color: #fcfcfb;
+    position: relative;
+
+}
+.said-full-main::before{
+    position: absolute;
+    content: '';
+    background-color: rgba(63, 74, 207, 1);
+    width: 350px;
+    height: 100%;
+    left: 0;
+    background-image: url(../imgs/1000004330.svg);
+    background-size: cover;
+    background-position-y: 0;
+}
+.said-full-main > .sitewidth{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: auto;  
+    align-items: center;
+    height: inherit;
+    flex-wrap: wrap;
+}
+.said-full-main > .sitewidth .rightcontent{
+    width: 70%;
+
+}
+.said-full-main > .sitewidth .leftcontent{
+    width: 30%;
+    position: relative;
+
+}
+.said-full-main > .sitewidth .leftcontent img{
+    position: absolute;
+    bottom: -225px;
+    left: 98px;
+}
+.said-full-main > .sitewidth .leftcontent::before{
+    position: absolute;
+    content: url(../imgs/cc1594d3b040eabfe67da43f28173b0e2.png);
+    right: -62px;
+    bottom: -233px;
+}
+
+
+
+.said-full-main > .sitewidth .rightcontent .bodycontent > h1{
+font-size: 40px;
+font-weight: 300;
+line-height: 62px;
+letter-spacing: -0.05em;
+text-align: right;
+color: rgba(63, 74, 207, 1);
+
+}
+.said-full-main > .sitewidth .rightcontent .bodycontent > h2{
+font-size: 27px;
+font-weight: 800;
+line-height: 42px;
+letter-spacing: -0.04em;
+text-align: right;
+padding-bottom: 14px;
+
+}
+.said-full-main > .sitewidth .rightcontent .bodycontent .liner{
+    display: block ruby;
+    padding-bottom: 40px;
+}
+.said-full-main > .sitewidth .rightcontent .bodycontent .liner span:nth-child(1){
+    width: 50px;
+}
+.said-full-main > .sitewidth .rightcontent .bodycontent .liner span{
+    background: rgba(117, 117, 117, 1);
+    width: 15px;
+    height: 2px;
+    display: block;
+    padding-left: 3px;
+    border-radius: 25%;
+}
+.said-full-main > .sitewidth .rightcontent .bodycontent > h1 > span{
+    font-weight: 700;
+
+}
+.said-full-main > .sitewidth .rightcontent .bodycontent p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: -0.06em;
+    padding-left: 170px;
+}
+.said-full-main > .sitewidth .rightcontent .bodycontent .divbutton{
+    margin-top: 26px    ;
+}   
+
+.said-full-main > .sitewidth .rightcontent .bodycontent .divbutton > .Onebutton{
+    border: 1px solid rgba(255, 255, 255, 1);
+    background: linear-gradient(0deg, #3F4ACF, #3F4ACF), linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.06em;
+    padding: 14px 36px;
+    border-radius: 35px; 
+    z-index: 1;
+    position: relative;
+}
+.said-full-main > .sitewidth .rightcontent .bodycontent .divbutton a img{
+    vertical-align: middle;
+    padding-left: 4px;
+}
+.said-full-main > .sitewidth .rightcontent .bodycontent .divbutton > .Twobutton{
+    background: rgb(70, 70, 70);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.06em;
+    padding: 14px 36px;
+    border-radius: 35px;
+    padding-right: 63px;
+    position: relative;
+    right: -50px;
+    z-index: 0;
+}
+.mobileMenuIconHed{
+    display: none;
+}
+
+.mobileMenuIconHed img{
+    vertical-align: bottom;
+}
+.boxServices .childbox{
+    padding-top: 20px;
+    box-shadow: 0px 9px 68px 0px #0000001A;
+    border-radius: 10px;
+    height: 135px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+}
+.boxServices .childbox:hover{
+    background: #3F4ACF;
+}
+.boxServices .childbox svg{
+    padding-bottom: 10px;
+}
+.boxServices .childbox:hover svg path{
+    fill: #fff;
+}
+.sectionstwo .sitewidth h2{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: -0.04em;
+    text-align: right;
+    color: #757575;
+    padding-top: 48px;
+}
+.sectionstwo .sitewidth h2 > span{
+    font-weight: 900;
+    color: #3F4ACF;
+}
+.sectionsdrei .bodycontents .leftsec > a{
+    color: #fff;
+    
+}
+.sectionstwo .sitewidth .boxServices{
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+    grid-row-gap: 20px;
+    z-index: 1;
+  position: relative;
+    margin-bottom: -75px;
+}
+.sectionstwo .sitewidth p{
+font-size: 14px;
+font-weight: 400;
+line-height: 33px;
+letter-spacing: -0.02em;
+color: #ABABAB;
+
+}
+.boxServices .childbox svg path{
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+}
+.boxServices .childbox p{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: #757575;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+}
+.boxServices .childbox:hover p{
+    color: #fff;
+
+}
+.boxServices .childbox img{
+    padding-top: 17px;
+}
+
+.sectionsdrei{
+    background: #464646;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 450px;
+}
+.sectionsdrei .bodycontents {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.sectionsdrei .bodycontents .rigtssec h4{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 46px;
+    letter-spacing: -0.04em;
+    text-align: right;
+    color: #FFFFFFB8;
+}
+.sectionsdrei .bodycontents .rigtssec h4 > span{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 900;
+    
+}
+.sectionsdrei .bodycontents .rigtssec{
+    width: 72%;
+}
+.sectionsdrei .bodycontents .leftsec{
+    width: 22%;
+}
+.sectionsdrei .bodycontents .rigtssec p{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.04em;
+    text-align: right;
+}
+.sectionsdrei .bodycontents .leftsec .contactsNum{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.sectionsdrei .bodycontents .leftsec .contactsNum .numbers h5{
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: -0.04em;
+    text-align: right;
+}
+.sectionsdrei .bodycontents .leftsec .contactsNum .numbers p{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -0.04em;
+}
+.sectionsdrei .bodycontents .leftsec .contactsNum .numbers p > span{
+    font-weight: 900;
+    padding-right: 10px;
+}
+.Setionsvier{
+    height: 420px;
+    border-radius: 35px 35px 0 0;
+    margin-top: -61px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    background-color: #3F4ACF;
+    z-index: 0;
+}
+.Setionsvier::before{
+    position: absolute;
+    content: '';
+    background-image: url(../imgs/Group.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    z-index: -1;
+}
+.Setionsvier .bodycontentsvier{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.Setionsvier .bodycontentsvier .imgsrights{
+    width: 18%;
+}
+.Setionsvier .bodycontentsvier .imgsrights img{
+    vertical-align: middle;
+}
+
+.Setionsvier .bodycontentsvier .bodytextcontent{
+    width: 82%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Setionsvier .bodycontentsvier .bodytextcontent h4{
+    color: #fff;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 60px;
+    letter-spacing: -0.06em;
+    position: relative;
+    padding-bottom: 8px;
+
+}
+
+.Setionsvier .bodycontentsvier .bodytextcontent h4 > span{
+    font-weight: 800;
+}
+
+
+.Setionsvier .bodycontentsvier .bodytextcontent .divtag{
+    color: #fff;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 23px;
+  letter-spacing: 0.1em;
+  width: fit-content;
+  background: rgba(255, 255, 255, 0.18);
+  border-radius: 33px;
+  padding: 4px 11px;
+}
+
+.Setionsvier .bodycontentsvier .bodytextcontent .divtag >span{
+    font-weight: 800;
+    padding-left: 5px;
+}
+
+.Setionsvier .bodycontentsvier .bodytextcontent > p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: -0.06em;
+    text-align: justify;
+    color: #fff;
+    padding-left: 98px;
+  padding-bottom: 12px;
+
+}
+.Setionsvier .bodycontentsvier .bodytextcontent .btn{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center; 
+}
+
+.Setionsvier .bodycontentsvier .bodytextcontent .btn > p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: -0.06em;
+    text-align: justify; 
+    color: #fff;
+    position: relative;
+}
+.Setionsvier .bodycontentsvier .bodytextcontent .btn > p::after{
+    position: absolute;
+    content: url(../imgs/2222.svg);
+    left: -25%;
+    bottom: -32px;
+}
+.Setionsvier .bodycontentsvier .bodytextcontent .divbtn .Onebutton{
+    border: 1px solid rgba(255, 255, 255, 1);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.06em;
+    padding: 14px 26px;
+    border-radius: 35px;  
+    margin-left: 5px;
+}
+.Setionsvier .bodycontentsvier .bodytextcontent .divbtn{
+    width: 34%;
+}
+.Setionsvier .bodycontentsvier .bodytextcontent .divbtn .Twobutton{
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.06em;
+    padding: 14px 23px;
+    border-radius: 35px;
+    background: #fff;
+    color: rgb(63, 74, 207);
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+}
+
+.Setionsvier .bodycontentsvier .bodytextcontent .divbtn a > img{
+    vertical-align: middle;
+    padding-right: 7px;
+}
+.sectionsdrei{
+    position: relative;
+}
+.sectionsdrei::after{
+    position: absolute;
+    content: url(../imgs/OBJECTS.svg);
+    bottom: -143px;
+    z-index: 1;
+    left: 0;
+    opacity: 0.5;
+}
+.sectionsfunf{
+    padding: 60px 0px 21px 0px;
+    background-image: url(../imgs/122.png);
+    background-size: cover;
+}
+.sectionsfunf .bodyfunfcontent{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap-reverse;
+}
+.sectionsfunf .bodyfunfcontent .contentbox{
+    width: 62%;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sectionsfunf .bodyfunfcontent .imgsboxx{
+    width: 30%;
+}
+.sectionsfunf .bodyfunfcontent .contentbox >h4{
+    font-weight: 400;
+  font-size: 22px;
+  line-height: 41px;
+  letter-spacing: -0.04em;
+  text-align: right;
+
+}
+.sectionsfunf .bodyfunfcontent .contentbox  >h4> span:nth-child(1){
+    background: rgba(63, 74, 207, 1);
+    color: #fff;
+    padding: 4px 6px 3px 0px;
+    font-weight: 900;
+}
+
+.sectionsfunf .bodyfunfcontent .contentbox h4 > span:nth-child(2){
+    background: rgba(63, 74, 207, 0.09);
+    color: rgb(63, 74, 207);
+    padding: 4px 5px 4px 6px;
+}
+
+.sectionsfunf .bodyfunfcontent .contentbox .short{
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: -0.02em;
+    color: rgb(136, 136, 136);
+}
+.sectionsfunf .bodyfunfcontent .contentbox .text{
+    font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: -0.06em;
+  text-align: justify;
+  color: rgb(70, 70, 70);
+  padding-left: 61px;
+}
+
+.sectionsfunf .bodyfunfcontent .contentbox .textS h4{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 46px;
+    letter-spacing: -0.04em;
+    text-align: right;
+    color: rgb(81, 81, 81);   
+}
+.sectionsfunf .bodyfunfcontent .contentbox .textS h4 > span{
+    color: #3F4ACF;
+    font-weight: 700;
+}
+.sectionsfunf .bodyfunfcontent .contentbox .textS p{
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.9px;
+    color: rgb(197, 197, 197);
+    direction: ltr;
+    text-align: end;
+    margin-top: -8px;
+}
+
+
+.sectionsfunf .bodyfunfcontent .contentbox .btnundtext{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.sectionsfunf .bodyfunfcontent .contentbox .btnundtext .more{
+    width: 22%;
+}
+.sectionsfunf .bodyfunfcontent .contentbox .btnundtext .more > a{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: rgba(63, 74, 207, 1);
+  
+}
+.sectionsfunf .bodyfunfcontent .contentbox .btnundtext .more > a img{
+    vertical-align: middle;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+}
+.sectionsfunf .bodyfunfcontent .contentbox .btnundtext .more > a:hover img{
+    transform: translate(-4px , 0px);
+}
+
+.sectionssechs {
+    padding: 26px 11px !important;
+}
+
+.sectionssechs h4{
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 41px;
+    letter-spacing: -0.04em;
+    text-align: right;
+    background: rgba(63, 74, 207, 1);
+    width: max-content;
+    color: #fff;
+    padding: 1px 7px;
+}
+.sectionssechs h4 > span{
+    font-weight: 900;
+}
+.sectionssechs .short{
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: -0.02em;
+    color: rgb(152, 152, 152);
+}
+.sectionssechs .text{
+    color: rgb(70, 70, 70);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: -0.06em;
+  text-align: justify;
+}
+
+.sectionssechs .mutterbox{
+    padding-top: 35px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 24px;
+}
+
+
+.sectionssechs .mutterbox .childbox{
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 4px 68.5999984741211px 0px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    height: 67px;
+    border-radius: 8px;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 24px;
+    color: rgb(94, 94, 94);
+}
+.sectionssechs .mutterbox .childbox p > img{
+    vertical-align: middle;
+    padding-left: 5px;
+}
+.sectionsSiben {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:40px 11px !important;
+    flex-wrap: wrap;  
+}
+.sectionsSiben .Rightsimgs{
+    width: 27%; 
+}
+
+.sectionsSiben .leftContent{
+    width: 73%;
+    position: relative;
+}
+.sectionsSiben .leftContent::before{
+    position: absolute;
+    content: url(../imgs/Group1000004273.svg);
+    left: 0;
+    top: -102px;
+
+}
+.sectionsSiben .leftContent h2{
+    width: max-content;
+  color: rgb(63, 74, 207);
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 43px;
+  letter-spacing: -0.015em;
+  text-align: right;
+  position: relative;
+}
+.sectionsSiben .leftContent h2::before{
+    position: absolute;
+    content: '';
+    background-image: url(../imgs/object.svg);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.sectionsSiben .leftContent .shorts{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0.07em;
+    text-align: right;
+    color: rgb(100, 100, 100);
+    padding: 4px 0;
+
+}
+.sectionsSiben .leftContent .shorts > span{
+    font-weight: 700;
+}
+.sectionsSiben .leftContent .text{
+    font-size: 14px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: -0.005em;
+  text-align: justify;
+  padding: 4px 0px 16px 80px;
+}
+.sectionsSiben .leftContent .divbtn{
+    display: flex;
+}
+.sectionsSiben .leftContent .divbtn .Onebutton{
+    background: rgba(40, 38, 48, 1);
+    color: #fff;
+    box-shadow: 0px 13px 14px 0px rgba(0, 0, 0, 0.08);
+    padding: 15px 19px;
+    border-radius: 35px;
+    margin-left: 7px;
+    padding: 17px 19px;
+  border-radius: 35px;
+  width: 185px;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+.sectionsSiben .leftContent .divbtn > a > img{
+    vertical-align: middle;
+    padding-right: 5px;
+
+}
+.sectionsSiben .leftContent .divbtn .Twobutton{
+    background: rgba(63, 74, 207, 1);
+    color: #fff;
+    box-shadow: 0px 6px 12px 0px rgba(63, 74, 207, 0.35);
+    padding: 15px 19px;
+    border-radius: 35px;
+    margin-left: 7px;
+    padding: 17px 19px;
+    border-radius: 35px;
+    width: 185px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+.sectionsSiben .Rightsimgs img{
+    width: 100%;
+}
+.sectionsfunf .bodyfunfcontent .imgsboxx img{
+    width: 100%;
+}
+
+.sectionsnune{
+    padding: 125px 0px 46px 0;
+    background: rgba(70, 70, 70, 1);
+    border-radius: 0px, 0px, 40px, 40px;
+    -webkit-border-radius: 0px, 0px, 40px, 40px;
+    -moz-border-radius: 0px, 0px, 40px, 40px;
+    -ms-border-radius: 0px, 0px, 40px, 40px;
+    -o-border-radius: 0px, 0px, 40px, 40px;
+    z-index: 0;
+    position: relative;
+    border-radius: 0 0 40px 40px;
+}
+
+.sectionsnune::before{
+    position: absolute;
+    content: '';
+    background-image: url(../imgs/Group.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    z-index: -1;
+    background-position-x: right;
+}
+
+.sectionsnune .insetbody h4{
+    font-size: 22px;
+    line-height: 41px;
+    letter-spacing: -0.04em;
+    text-align: right;
+    color: #fff;
+}
+.sectionsnune .insetbody h4 > span{
+    font-weight: 900;
+
+}
+.sectionsnune .insetbody .short{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: -0.02em;
+    color: rgb(196, 196, 196);
+    padding-top: 7px;
+}
+.Acht .boxServices .childbox{
+    border-radius: 20px !important;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    -ms-border-radius: 20px !important;
+    -o-border-radius: 20px !important;
+}
+
+.sectionsnune .insetbody .mutterimgbox{
+    padding: 45px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 10px;
+  }
+.sectionsnune .insetbody .mutterimgbox .childs{
+    height: 150px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+}
+
+.sectionsnune .insetbody .mutterimgbox .childs > p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: -0.025em;
+    padding-top: 20px;
+    color: rgba(255, 255, 255, 1);
+
+}
+.hover{
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.2s;
+    -webkit-transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.2s;
+    -moz-transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.2s;
+    -ms-transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.2s;
+    -o-transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.2s;
+}
+.hover:hover{
+    transform: translate(0px , -4px);
+    -webkit-transform: translate(0px , -4px);
+    -moz-transform: translate(0px , -4px);
+    -ms-transform: translate(0px , -4px);
+    -o-transform: translate(0px , -4px);
+}
+.sectionsnune .insetbody .mutterimgbox .childs::before{
+    position: absolute;
+    content: url(../imgs/Group255.svg);
+    top: 59px;
+    left: 48.5%;
+}
+.zehnsections{
+    padding:48px 11px 0px 11px !important;
+}
+.zehnsections h2 {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: -0.04em;
+    text-align: right;
+    color: #757575;
+    padding-top: 48px;
+  }
+  .zehnsections  h2 > span{
+    font-weight: 900;
+    color: #3F4ACF;
+  }
+
+.zehnsections  p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: -0.02em;
+    color: #ABABAB;
+  }
+.crowsels {
+    overflow: hidden;
+    padding: 45px 0px;
+    position: relative;
+}
+.crowsels .slick-dots {
+    top: 0;
+    right: 35%;
+}
+.slick-dots li{
+    margin: 0px !important;
+}
+.slick-dots li button::before{
+    font-size: 0 !important;
+    line-height: 0;
+    width: 8px !important;
+  height: 8px !important;
+  background: rgb(180, 180, 180);
+  border-radius: 50px;
+}
+
+.slick-dots li.slick-active{
+    margin-right: 5px !important;
+  margin-left: 0 !important;
+}
+
+.slick-dots li.slick-active button::before{
+    opacity: 1 !important;
+    left: 0;
+    color: transparent;
+    width: 17px !important;
+    background: rgba(63, 74, 207, 1);
+}
+.crowsels .commentsbox.slick-slide.slick-active{
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+}
+.crowsels .commentsbox.slick-slide.slick-cloned{
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+}
+.crowsels .commentsbox.slick-slide{
+    filter: blur(0px) ;
+    -webkit-filter: blur(0px) ;
+}
+.crowsels .commentsbox.slick-slide.slick-center{
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+}
+.crowsels .commentsbox{
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 6px 23.4px 0px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    border-radius: 15px;
+    margin: 20px;
+    height: 170px;
+}
+.crowsels .commentsbox .HeaderBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 1.6px dashed rgba(63, 74, 207, 0.24);
+  padding-bottom: 9px;
+}
+.crowsels .commentsbox .HeaderBox .infouser{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.crowsels .commentsbox .HeaderBox .infouser .imgsuser img{
+    border: 3px solid rgb(211, 214, 255);
+    border-radius: 50px;
+    vertical-align: bottom;
+
+}
+.crowsels .commentsbox .HeaderBox .infouser .userName p{    
+    font-size: 16px;
+  font-weight: 800;
+  line-height: 23px;
+  letter-spacing: 0em;
+  color: rgb(115, 122, 215);
+  padding: 0px 7px;
+
+}
+.crowsels .commentsbox .HeaderBox .infouser .userName span{
+    font-size: 10px;
+    font-weight: 300;
+    letter-spacing: -0.04em;
+    padding: 0px 7px;
+    display: block;
+    line-height: 16px;  
+}
+
+.crowsels .commentsbox .HeaderBox .datacomment span{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+.crowsels .commentsbox .bodycommentbox p{
+    color: rgb(117, 117, 117);
+    padding: 9px 0;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: -0.03em;
+    text-align: justify;
+  }
+  .slick-next::before {
+    content: url(../imgs/arrow-rightq.svg) !important;
+  }
+  .slick-next {
+    right: calc(80% + 0px) !important;
+    top: 10px !important;
+    z-index: 1;
+  }
+  .slick-prev{
+    right: calc(88.2% + 0px);
+    top: 10px !important;
+    z-index: 1;
+  }
+  .slick-prev::before{
+    content: url(../imgs/arrow-righqt.svg) !important;
+
+  }
+/* Responsiv */
+@media only screen and (max-width: 1026px) {
+    .MenueHead nav ul li {
+        padding: 0px 16px 0px 0px;
+      }
+      .MenueHead nav ul li a{
+        font-size: 11px;
+      }
+
+}
+@media only screen and (max-width: 1300px) {
+    .slick-next {
+        right: calc(80% + -30px) !important;
+
+      }
+      .slick-prev{
+        right: calc(88.2% + 30px);
+
+      }
+    .sitewidth{
+        padding: 0px 11px;
+      }
+      .Setionsvier .bodycontentsvier .bodytextcontent .btn > p::after{
+        display: none;    
+    }
+    .sectionssechs .mutterbox .childbox{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .sectionsSiben .leftContent .text{
+        padding-left: 30px;
+    }
+    .sectionssechs .mutterbox{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .sectionsfunf .bodyfunfcontent .imgsboxx {
+        width: 38%;
+      }
+}
+@media only screen and (max-width: 890px) {
+    .crowsels .commentsbox{
+        margin: 20px 13px;
+    }
+    .sectionsSiben .leftContent h2{
+        font-size: 24px;
+    }
+    .sectionsSiben .leftContent .shorts{
+        font-size: 14px;
+    }
+    .sectionsfunf .bodyfunfcontent .contentbox .textS p{
+        letter-spacing: 0.4px;
+    }
+    .sectionsfunf .bodyfunfcontent .contentbox .textS h4 {
+        font-size: 15px;
+    }
+    .sectionsfunf .bodyfunfcontent .contentbox .btnundtext .more {
+        width: 15%;
+      }
+    .sectionsfunf .bodyfunfcontent .contentbox .text{
+        padding-left: 10px;
+    }
+    .sectionsfunf .bodyfunfcontent .imgsboxx{
+        width: 100%;
+        text-align: center;
+    }
+    .sectionsfunf .bodyfunfcontent .contentbox{
+        width: 100%;
+        padding-top: 10px;
+    }
+    .Setionsvier{
+        height: max-content;  
+    }
+    .Setionsvier .bodycontentsvier .imgsrights{
+        width: 100%;
+        text-align: center;
+    }
+
+    .Setionsvier .bodycontentsvier .bodytextcontent .divbtn{
+        width: 100%;
+        padding: 23px 0;
+    }
+    .Setionsvier .bodycontentsvier .bodytextcontent{
+        width: 100%;
+    }
+    .Setionsvier .bodycontentsvier .bodytextcontent > p{
+        padding-left: 0;
+    }
+    .sectionsdrei .bodycontents .rigtssec p{
+        font-size: 12px;
+    }
+    .sectionsdrei .bodycontents .rigtssec h4{
+        font-size: 14px;
+    }
+    .sectionsdrei .bodycontents .rigtssec {
+        width: 68%;
+      }
+    .sectionsdrei .bodycontents .leftsec {
+        width: 26%;
+      }
+    .sectionstwo .sitewidth .boxServices{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .mobileMenuIconHed{
+        display: block;
+    }
+
+    .said-full-main > .sitewidth .rightcontent .bodycontent .divbutton > .Twobutton{
+        padding: 14px 16px;
+        position: initial; 
+    }
+    .said-full-main > .sitewidth .rightcontent .bodycontent .liner{
+        padding-bottom: 10px;
+    }
+    
+    .said-full-main > .sitewidth .rightcontent .bodycontent > h2 {
+        font-size: 17px;
+
+    }
+    .said-full-main > .sitewidth .rightcontent .bodycontent > h1{
+        font-size: 30px;
+    }
+
+    .said-full-main > .sitewidth .rightcontent .bodycontent p{
+        padding-left: 10px;
+    }
+    .said-full-main::before{
+        width: 100px;
+    }
+    .said-full-main > .sitewidth .rightcontent {
+        width: 63%;
+      }
+    .said-full-main > .sitewidth .leftcontent img{
+        bottom: 0;
+        width: 37%;
+        left: 0;
+    }
+    .said-full-main > .sitewidth .leftcontent{
+        position: initial;   
+    }
+    .said-full-main{
+        background-size: cover;  
+    }
+    .said-full-main > .sitewidth .leftcontent::before{
+        display: none;
+    }
+ 
+    .Headersit .MenueHead nav{
+        display: none;
+    }
+    .Headersit .MenueHead{
+        width: 10%;
+        order: 1;
+    }
+    .Headersit .LogoHeader{
+        order: 2;
+    }
+    .Headersit .BtnHead{
+        width: 54%;
+        order: 3;
+    }
+    .sectionsdrei .bodycontents .rigtssec h4 > span{
+        font-size: 20px;
+    }
+    .sectionsnune .insetbody .mutterimgbox .childs > p{
+        font-size: 12px ;
+    }
+    .crowsels .commentsbox .HeaderBox .datacomment span{
+        display: none;
+    }
+    .crowsels .commentsbox .bodycommentbox p{
+        font-size: 12px;
+    line-height: 25px;
+    }
+    .crowsels .commentsbox{
+        height: 208px;
+}
+    }
+@media only screen and (max-width: 600px) {
+    .crowsels{
+        padding: 25px 0px;
+    }
+    .Acht .boxServices .childbox p{
+        font-size: 12px ;
+    }
+    .sectionsnune .insetbody .mutterimgbox{
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 0;
+        padding: 9px 0;
+    }
+    .sectionssechs .mutterbox{
+        grid-column-gap: 12px;
+        grid-row-gap: 12px;
+    }
+    .sectionssechs .mutterbox .childbox {
+        font-size: 12px;
+      }
+    .sectionssechs .text{
+        font-size: 14px;
+    }
+    .sectionsfunf .bodyfunfcontent .contentbox .text{
+        font-size: 12px;
+        line-height: 33px;
+        margin-bottom: 10px;
+    }
+    .sectionsfunf .bodyfunfcontent .contentbox .short {
+        font-size: 10px;
+    }
+    .sectionsfunf .bodyfunfcontent .contentbox > h4{
+        font-size: 18px;
+    }
+    .said-full-main{
+        border: 1px dashed rgb(166, 166, 166);
+
+    }
+    .said-full-main::after{
+        display: none;
+    }
+    .sectionsfunf .bodyfunfcontent .contentbox .textS p {
+        letter-spacing: 0;
+        font-size: 10px;
+        margin-top: 0;
+      }
+    .sectionsfunf .bodyfunfcontent .contentbox .textS h4 {
+        font-size: 12px;
+        letter-spacing: -0.6px;
+        line-height: 25px;
+      }
+    .sectionsfunf .bodyfunfcontent .contentbox .btnundtext .more {
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+      }
+      .sectionsfunf .bodyfunfcontent .contentbox .btnundtext .more a{
+        font-size: 12px;
+      }
+    .Setionsvier .bodycontentsvier .bodytextcontent h4{
+        font-size: 16px;
+        line-height: 32px;
+    }
+    .Setionsvier .bodycontentsvier .bodytextcontent > p{
+        line-height: 2em;
+        font-size: 12px;
+    }
+    .Setionsvier .bodycontentsvier .bodytextcontent .divbtn{
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .sectionsdrei .bodycontents .rigtssec h4 > span{
+        font-size: 14px;
+    }
+    .sectionsdrei .bodycontents .rigtssec {
+        width: 100%;
+      }
+    .sectionsdrei .bodycontents .leftsec {
+        width: 100%;
+        margin-top: 53px;
+      }
+    .said-full-main > .sitewidth .rightcontent .bodycontent > h2 {
+        font-size: 14px;
+        padding-bottom: 0;
+      }
+      .sectionssechs .short{
+        font-size: 10px;
+      }
+    
+    .Headersit{
+        margin-bottom: 8px;
+    }
+    .Headersit .MenueHead{
+        
+        order: 2;
+    }
+    .Headersit .LogoHeader{
+        order: 1;
+    }
+    .Headersit .BtnHead{
+        width: 54%;
+        order: 3;
+    }
+    .said-full-main::before{
+        display: none;
+    }
+    .Headersit .LogoHeader{
+        width: 100%;
+    }
+    .Headersit .LogoHeader a{
+        justify-content: center;
+    }
+    .Headersit .BtnHead{
+        width: 84%;
+
+
+      }
+ 
+      .said-full-main > .sitewidth .rightcontent {
+        width: 100%;
+      }
+      .sectionsSiben .leftContent .divbtn {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .sectionsSiben .leftContent .text {
+        padding-left: 15px;
+        font-size: 12px;
+      }
+      .sectionsdrei .bodycontents .rigtssec h4 {
+        font-size: 12px;
+      }
+      .crowsels .commentsbox.slick-slide.slick-cloned{
+        filter: blur(0px);
+        -webkit-filter: blur(0px);
+}
+
+
+    }
+
+    @media only screen and (max-width: 480px) {
+        .slick-prev {
+            right: calc(84.2% + 30px);
+          }
+        .crowsels .slick-dots{
+            right: 28%;
+        }
+        .slick-next{
+            right: calc(70% + -30px) !important;
+  
+        }
+
+        .crowsels .commentsbox{
+            margin: 20px 5px;
+        }
+        .sectionsfunf .bodyfunfcontent .contentbox .short {
+            font-size: 9px;
+          }
+        .Setionsvier .bodycontentsvier .bodytextcontent h4{
+            font-size: 14px;
+        }
+
+        .sectionsSiben .Rightsimgs img{
+            width: auto;
+        }
+        .sectionsSiben .Rightsimgs{
+            text-align: center;
+        }
+        .sectionsSiben .leftContent {
+            width: 100%;
+          }
+        .sectionsSiben .Rightsimgs {
+            width: 100%;
+          }
+
+        .sectionssechs .mutterbox {
+            grid-template-columns: repeat(1, 1fr);
+          }
+        .said-full-main > .sitewidth .leftcontent img{
+            opacity: 0.4;      
+        }
+    
+    }
+    @media only screen and (max-width: 405px){
+        .sectionsSiben .leftContent .divbtn .Onebutton{
+            margin-bottom: 5px;
+        }
+    }
